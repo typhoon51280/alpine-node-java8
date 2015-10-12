@@ -9,4 +9,4 @@ For more information on java8 read the documentation at [http://docs.oracle.com/
 
 This build is available on the Docker hub at [typhoon51280/alpine-node-java8](https://hub.docker.com/r/typhoon51280/alpine-node-java8/).
 
-Current build status: [![Build Status](https://travis-ci.org/typhoon51280/alpine-node-java8.svg?branch=master)](https://travis-ci.org/typhoon51280/alpine-node-java8)
+Current build status: [![Build Status](https://circleci.com/gh/typhoon51280/alpine-node-java8/tree/master.svg?style=shield&circle-token=fc712d6253e15eb5479cf374783551e1a26f58e8)](https://circleci.com/gh/typhoon51280/alpine-node-java8)
