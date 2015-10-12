@@ -15,7 +15,7 @@ dependencies:
 test:
   override:
     - docker run -d --name=alpine-node-java8 typhoon51280/alpine-node-java8 java -version ; sleep 10
-    - docker logs alpine-node-java8 | grep "1.8.0_60"
+    - docker logs alpine-node-java8 > java.version && grep "1.8.0_60-b27" java.version
 
 deployment:
   hub: 
